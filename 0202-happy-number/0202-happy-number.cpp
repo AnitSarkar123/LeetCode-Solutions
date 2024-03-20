@@ -1,6 +1,6 @@
 class Solution {
 public:
-   int sq_sum(int n){
+   int sq_sum(int &n){
           int k, sum=0;
         while(n !=0){
             k=n%10;
