@@ -2,7 +2,7 @@ class Solution {
 public:
     int missingNumber(vector<int>& v) {
     // int k=v.size();
-        long s=(v.size()*(v.size()+1))/2;
+        long s=(v.size()*(v.size()+1))/2;//series sum [sum=n*(n-1)/2]
         long sum=0;
         // cout<<k<<endl;
         for( int elements : v){
