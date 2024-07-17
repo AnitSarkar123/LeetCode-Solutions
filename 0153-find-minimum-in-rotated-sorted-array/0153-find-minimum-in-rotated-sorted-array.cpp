@@ -10,7 +10,7 @@ public:
                 break;
             }
             if(nums[s]<=nums[m]){
-                mini=min(mini,nums[s]);
+                mini=min(mini,nums[m]);
                 s=m+1;
             }
             else{
