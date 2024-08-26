@@ -6,7 +6,7 @@ public:
             x = 1 / x;
         } 
         
-        long num = labs(n);
+        long num = labs(n);//labs() is a function that calculates the absolute value of a long integer.
         
         double pow = 1;
         
