@@ -6,6 +6,7 @@ public:
         while(n){
             if(n&1){
                 ans=(ans*x)%mod;
+                n--;
         
             }
             x=(x*x)%mod;
